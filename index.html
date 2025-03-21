@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <!-- creating registration webpage with audio and video elements -->
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+        </head>
+
+    <body>
+       
+        <!--Adding an ordered list with roman numerals-->
+        <div class="nav">
+            <p>Here is a list of items:</p>
+            <ol type="I">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="services.html">
+                    <li>Services</li>
+                </a>
+                <a href="registration.html">
+                    <li>Registration</li>
+                </a>
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+                <a href="gallery.html">
+                    <li>Gallery</li>
+                </a>
+                <a href="audio.html">
+                    <li>Audio</li>
+                </a>
+                <a href="video.html">
+                    <li>Video</li>
+                </a>
+
+        </ol>
+    </div>
+<br>
+<!--Adding an image from pexels.com-->
+<img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Pexels image" width="200" height="180">
+<br>
+<!--Adding a heading with a background color-->
+<h1 style="background-color: #333; color: #fff; padding: 10px; text-align: center;">Contact List</h1>
+
+        <!--Adding a table of 5 contacts with; name, address, mobile and emails-->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Mali Cina</td>
+            <td>123 Main St, New York, NY</td>
+            <td>123-456-7890</td>
+            <td>
+                <a href="mailto:cinaMali@mail.com">
+                    cinaMali@mail.com
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Palesa Makhali</td>
+            <td>456 Park Ave, New York, NY</td>
+            <td>456-789-0123</td>
+            <td>
+                <a href="mailto:palemakhali@mail.com">
+                    palemakhali@mail.com
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Mirriam Plaatjies</td>
+            <td>789 Broadway, New York, NY</td>
+            <td>789-012-3456</td>
+            <td>
+                <a href="mailto:pmplaatjie@mail.com">
+                    pmplaatjie@mail.com
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Fezile Gqiba</td>
+            <td>101 Wall St, New York, NY</td>
+            <td>101-112-1314</td>
+            <td>
+                <a href="mailto:gqibaFezi@mail.com">
+                    gqibaFezi@mail.com
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Johannes Mpinga</td>
+            <td>1212 5th Ave, New York, NY</td>
+            <td>121-212-3131</td>
+            <td>
+                <a href="mailto:Jmpinga@mail.com">
+                    Jmpinga@mail.com
+                </a>
+            </td>
+        </tr>
+    </table>
+
+        <!--Adding a heading with a background color-->
+        <h1 style="background-color: #333; color: #fff; padding: 10px; text-align: center;">Registration Form</h1>
+        <!--Adding a form with username, email, password and confirm password fields containing dropdown, radio buttons, and checkboxes-->
+        <form>
+            <label for="title">Title:</label><br>
+            <select id="title" name="title">
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="miss">Miss</option>
+                <option value="dr">Dr</option>
+            </select><br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password"><br>
+
+            <label>
+                <input type="radio" name="gender" value="gender"> Female
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="gender">Male
+            </label>
+<br>
+<br>
+            <label>
+                <input type="checkbox" name="terms" value="terms"> I accept the terms and conditions
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+
+    <!--Adding a div with a background color-->
+    <div style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        <div class="container">
+            <div class="header">
+                <h2>Register</h2>
+            </div>
+        </div>
+    </div>
+        <!--Adding an audio and video element-->
+        <audio id="audio" controls>
+            <source src="audio.mp3" type="audio/mp3">
+        </audio>
+        <video id="video" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </body>
+
+    <!--Adding a footer with a background color-->
+    <footer style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        <p>&copy; 2025</p>
+    </footer>
+    <style>
+        /*Styling the body*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Styling the nav*/
+        .nav {
+            background-color: #8f8f8f;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+        }
+        /*Styling the ol*/
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+        /*Styling the ol li*/
+        ol li {
+            display: inline;
+            margin-right: 10px;
+        }
+        /*Styling the ol li a*/
+        ol li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        /*Styling the ol li a:hover*/
+        ol li a:hover {
+            color: #000;
+        }
+
+        /*Styling the image*/
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /*Styling the h1*/
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /*Styling the header*/
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /*Styling the table*/
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        /*Styling the table header*/
+        th {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        /*Styling the table data*/
+        td {
+            padding: 10px;
+        }
+        /*Styling the form*/
+        form {
+            width: 50%;
+            margin: 0 auto;
+        }
+        /*Styling the form labels*/
+        label {
+            font-weight: bold;
+        }
+        /*Styling the div*/
+        div {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /*Styling the audio and video elements*/
+        audio, video {
+            width: 100%;
+        }
+
+        /*Styling the div container*/
+        .container {
+            width: 50%;
+            margin: 0 auto;
+        }
+        /*Styling the div header*/
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        /*Styling the footer*/
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</html>
